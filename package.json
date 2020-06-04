@@ -1,0 +1,50 @@
+{
+  "private": true,
+  "name": "shaking",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Eric Chen",
+    "email": "airkro@qq.com"
+  },
+  "homepage": "https://github.com/airkro/shaking#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airkro/shaking.git"
+  },
+  "bugs": {
+    "url": "https://github.com/airkro/shaking/issues"
+  },
+  "scripts": {
+    "format": "nice-move lint"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "antd": "^4.3.1",
+    "dayjs": "^1.8.28",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@nice-move/cli": "^0.3.7",
+    "@nice-move/eslint-config-base": "^0.2.13",
+    "@nice-move/prettier-config": "^0.2.1",
+    "eslint": "^6.8.0",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5"
+  },
+  "engines": {
+    "node": ">=10.18"
+  },
+  "eslintConfig": {
+    "extends": "@nice-move/eslint-config-base"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "nice-move lint"
+    }
+  },
+  "prettier": "@nice-move/prettier-config"
+}
