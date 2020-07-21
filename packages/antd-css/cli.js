@@ -15,15 +15,15 @@ const { antdPath, findComponents, createPassportFile } = require('./lib');
 new Json()
   .source('antd/package.json')
   .handle(({ module, sideEffects, ...rest }) => ({
-    sideEffects: ['es-less/**/style/*', ...sideEffects],
-    module: 'es-less/index.js',
+    sideEffects: ['es-css/**/style/*', ...sideEffects],
+    module: 'es-css/index.js',
     ...rest,
   }))
   .output();
 
 copySync(
   require.resolve('antd/es/index.js'),
-  resolve(antdPath, 'es-less/index.js'),
+  resolve(antdPath, 'es-css/index.js'),
 );
 
 async function action() {
@@ -32,7 +32,7 @@ async function action() {
   components.forEach((component) => {
     new Text()
       .handle(() => createPassportFile(component))
-      .output(resolve(antdPath, 'es-less', component, 'index.js'));
+      .output(resolve(antdPath, 'es-css', component, 'index.js'));
   });
 }
 

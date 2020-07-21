@@ -1,5 +1,5 @@
 {
-  "name": "@shaking/antd-less",
+  "name": "@shaking/antd-css",
   "version": "0.0.1",
   "description": "Make `antd` support webpack `tree-shaking` out of the box",
   "license": "MIT",
@@ -12,20 +12,20 @@
     "tree-shaking",
     "webpack"
   ],
-  "homepage": "https://github.com/Airkro/shaking/tree/master/packages/antd-less#readme",
+  "homepage": "https://github.com/Airkro/shaking/tree/master/packages/antd-css#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Airkro/shaking.git",
-    "directory": "packages/antd-less"
+    "directory": "packages/antd-css"
   },
   "bugs": {
     "url": "https://github.com/Airkro/shaking/issues"
   },
   "bin": {
-    "shaking-antd-less": "cli.js"
+    "shaking-antd-css": "cli.js"
   },
   "scripts": {
-    "postinstall": "shaking-antd-less"
+    "postinstall": "shaking-antd-css"
   },
   "dependencies": {
     "fs-chain": "^0.2.0",

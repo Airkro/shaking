@@ -16,7 +16,7 @@ Now, You don't need `babel-plugin-import` to handle `antd` import anymore.
 
 ## Usage
 
-Enable `webpack@4` tree shaking of ES modules. Add `Less` support to your webpack scaffold. If you already did that, just:
+Enable `webpack@4` tree shaking of ES modules. Add `less` support to your webpack scaffold. If you already did that, just:
 
 ```js
 import { Card, Alert } from 'antd';

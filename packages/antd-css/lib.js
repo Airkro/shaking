@@ -13,7 +13,7 @@ function findComponents() {
 }
 
 function createPassportFile(component) {
-  return `import '../../es/${component}/style/index.js';
+  return `import '../../es/${component}/style/css.js';
 export { default } from '../../es/${component}/index.js';
 `;
 }

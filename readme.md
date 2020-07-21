@@ -5,7 +5,7 @@
 
 ## packages
 
-- @shaking/antd-css
+- [@shaking/antd-css](./packages/antd-css/)
 - [@shaking/antd-less](./packages/antd-less/)
 
 [github-badge]: https://img.shields.io/github/license/airkro/shaking.svg?logo=github&style=flat-square&colorB=blue

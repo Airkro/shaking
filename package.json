@@ -22,15 +22,15 @@
     "packages/*"
   ],
   "dependencies": {
-    "antd": "^4.3.1",
-    "dayjs": "^1.8.28",
+    "antd": "^4.4.3",
+    "dayjs": "^1.8.29",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@nice-move/cli": "^0.3.7",
-    "@nice-move/eslint-config-base": "^0.2.13",
-    "@nice-move/prettier-config": "^0.2.1",
+    "@nice-move/cli": "^0.3.11",
+    "@nice-move/eslint-config-base": "^0.3.3",
+    "@nice-move/prettier-config": "^0.2.4",
     "eslint": "^6.8.0",
     "husky": "^4.2.5",
     "prettier": "^2.0.5"
