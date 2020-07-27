@@ -1,6 +1,6 @@
 {
   "name": "@shaking/antd-less",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Make `antd` support webpack `tree-shaking` out of the box",
   "license": "MIT",
   "keywords": [
@@ -28,7 +28,7 @@
     "postinstall": "shaking-antd-less"
   },
   "dependencies": {
-    "fs-chain": "^0.2.0",
+    "fs-chain": "^1.0.2",
     "fs-extra": "^9.0.1",
     "globby": "^11.0.1",
     "is-module-installed": "^2.0.9"

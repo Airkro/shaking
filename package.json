@@ -23,12 +23,12 @@
   ],
   "dependencies": {
     "antd": "^4.4.3",
-    "dayjs": "^1.8.29",
+    "dayjs": "^1.8.30",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@nice-move/cli": "^0.3.11",
+    "@nice-move/cli": "^0.4.1",
     "@nice-move/eslint-config-base": "^0.3.3",
     "@nice-move/prettier-config": "^0.2.4",
     "eslint": "^6.8.0",
