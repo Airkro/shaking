@@ -1,0 +1,21 @@
+name: Sync
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  sync:
+    strategy:
+      matrix:
+        site:
+          - https://cnpmjs.org
+          - https://npm.taobao.org
+        package:
+          - antd-css
+          - antd-less
+    runs-on: macos-latest
+    steps:
+      - name: request
+        run: curl -X PUT ${{ matrix.site }}/sync/@shaking/${{ matrix.package }}?sync_upstream=true
