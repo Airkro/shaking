@@ -1,6 +1,6 @@
 {
   "name": "@shaking/antd-css",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Make `antd` support webpack `tree-shaking` out of the box",
   "license": "MIT",
   "keywords": [

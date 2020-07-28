@@ -15,7 +15,7 @@ const { antdPath, findComponents, createPassportFile } = require('./lib');
 new Json()
   .source('antd/package.json')
   .handle(({ module, sideEffects, ...rest }) => ({
-    sideEffects: [...sideEffects, '*.css'],
+    sideEffects: [...sideEffects, 'es-css/*/*', '*.css'],
     module: 'es-css/index.js',
     ...rest,
   }))
