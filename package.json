@@ -7,10 +7,10 @@
     "name": "Eric Chen",
     "email": "airkro@qq.com"
   },
-  "homepage": "https://github.com/airkro/shaking#readme",
+  "homepage": "https://github.com/airkro/shaking",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/airkro/shaking.git"
+    "url": "https://github.com/airkro/shaking.git"
   },
   "bugs": {
     "url": "https://github.com/airkro/shaking/issues"
@@ -22,15 +22,15 @@
     "packages/*"
   ],
   "dependencies": {
-    "antd": "^4.4.3",
-    "dayjs": "^1.8.30",
+    "antd": "^4.5.4",
+    "dayjs": "^1.8.33",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@nice-move/cli": "^0.4.1",
-    "@nice-move/eslint-config-base": "^0.3.3",
-    "@nice-move/prettier-config": "^0.2.4",
+    "@nice-move/cli": "^0.4.2",
+    "@nice-move/eslint-config-base": "^0.3.6",
+    "@nice-move/prettier-config": "^0.2.5",
     "eslint": "^6.8.0",
     "husky": "^4.2.5",
     "prettier": "^2.0.5"
